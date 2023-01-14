@@ -1,5 +1,5 @@
 # RS_Keras
-本项目为使用Keras实现推荐排序算法，代码包括1.数据处理2.特征工程3.模型搭建4.训练测试评估
+本项目为使用Keras实现推荐排序算法
 
 # why this project?
 1. 对数据中缺失值、异常值处理
@@ -9,7 +9,7 @@
 
 ## 数据集
 数据集使用搜狐算法大赛大赛推荐数据：https://www.biendata.xyz/competition/sohu_2022/?source=xyFaye_959
-数据集链接：
+
 
 ## 数据处理EDA
 1. 缺失值处理
