@@ -12,20 +12,20 @@
 数据集使用搜狐算法大赛大赛推荐数据：https://www.biendata.xyz/competition/sohu_2022/?source=xyFaye_959
 
 
-## 数据处理EDA
+## 1.数据处理EDA
 1. 缺失值处理
 2. 异常值处理
 3. 连续数值归一化
 
-## 特征工程
+## 2.特征工程
 1. id类特征做embedding
 2. 连续数值分桶->one-hot->embedding
 3. 交叉特征
 
-## 模型搭建
+## 3.模型搭建
 1. Wide&Deep
 2. DeepFM
 3. DIN
 4. BST
 
-## 训练测试评估
+## 4.训练测试评估
