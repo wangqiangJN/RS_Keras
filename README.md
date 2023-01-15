@@ -7,6 +7,7 @@
 3. 排序模型算法搭建
 4. 训练测试验证模型
 
+### 每个模型有两个文件：model.ipynb和model.py,方便测bug和运行
 ## 数据集
 数据集使用搜狐算法大赛大赛推荐数据：https://www.biendata.xyz/competition/sohu_2022/?source=xyFaye_959
 
