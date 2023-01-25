@@ -1,5 +1,5 @@
 # RS_Keras
-本项目为使用Keras实现推荐排序算法
+TF2.x+Keras+tf.feature_column训练推荐算法
 
 # why this project?
 1. 对数据中缺失值、异常值处理
