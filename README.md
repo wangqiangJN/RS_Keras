@@ -1,17 +1,17 @@
 # RS_Keras
-TF2.x+Keras+tf.feature_column训练推荐算法
+Keras搭建推荐算法：
+1. 召回
+2. 排序
+3. 多任务学习
 
 # why this project?
 1. 对数据中缺失值、异常值处理
-2. id类特征列进行embedding、连续性特征分桶做one-hot再做embedding、交叉特征
+2. 特征工程
 3. 排序模型算法搭建
 4. 训练测试验证模型
 
-### 每个模型有两个文件：model.ipynb和model.py,方便测bug和运行
 ## 数据集
-数据集使用搜狐算法大赛大赛推荐数据：https://www.biendata.xyz/competition/sohu_2022/?source=xyFaye_959
-
-
+数据集使用搜狐算法大赛大赛推荐数据和天池多任务学习数据集
 ## 1.数据处理EDA
 1. 缺失值处理
 2. 异常值处理
@@ -23,9 +23,15 @@ TF2.x+Keras+tf.feature_column训练推荐算法
 3. 交叉特征
 
 ## 3.模型搭建
+召回：
+1. CF
+2. 双塔
+排序：
 1. Wide&Deep
 2. DeepFM
 3. DIN
-4. BST
+多任务：
+1. Shared_Bottom
+2. MOE
+3. MMOE
 
-## 4.训练测试评估
