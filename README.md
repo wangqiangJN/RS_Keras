@@ -15,23 +15,23 @@ Keras搭建推荐算法：
 
 
 ## 数据处理EDA
-1. 缺失值处理
-2. 异常值处理
+1. 缺失值处理(✘)
+2. 异常值处理(✘)
 
 ## 特征工程
-1. id类特征做embedding
-2. 连续数值分桶->one-hot->embedding
-3. 交叉特征
+1. id类特征做embedding(✔)
+2. 连续数值分桶->one-hot->embedding(✘)
+3. 交叉特征(✘)
 
 ## 召回：
-1. CF
-2. 双塔
+1. CF(✘)
+2. 双塔(✔)
 ## 排序：
-1. Wide&Deep
-2. DeepFM
-3. DIN
+1. Wide&Deep(✔)
+2. DeepFM(✔)
+3. DIN(✘)
 ## 多任务：
-1. Shared_Bottom
-2. MOE
-3. MMOE
+1. Shared_Bottom(✔)
+2. MOE(✘)
+3. MMOE(✘)
 
